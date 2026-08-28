@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+:root {
+  --bg-color: #F8FAFC;
+  --card-color: #FFFFFF;
+  --text-color: #1E293B;
+  --muted-color: #64748B;
+  --border-color: rgba(0, 0, 0, 0.1);
+  --accent-color: #3b82f6;
+  --success-color: #10B981;
+}
+
+.dark {
+  --bg-color: #0F1115;
+  --card-color: #181B21;
+  --text-color: #E8EAED;
+  --muted-color: #9CA3AF;
+  --border-color: rgba(255, 255, 255, 0.05);
+  --accent-color: #4F9DDE;
+  --success-color: #6EE7B7;
+}
+
+@theme {
+  --color-brand-bg: var(--bg-color);
+  --color-brand-card: var(--card-color);
+  --color-brand-text: var(--text-color);
+  --color-brand-muted: var(--muted-color);
+  --color-brand-border: var(--border-color);
+  --color-brand-accent: var(--accent-color);
+  --color-brand-success: var(--success-color);
+}
+
+body {
+  background-color: var(--color-brand-bg);
+  color: var(--color-brand-text);
+  margin: 0;
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Optionnel: curseur caché par défaut pour utiliser le curseur personnalisé */
+  /* cursor: none; */ 
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
