@@ -56,7 +56,7 @@ export default function Hero() {
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </a>
             <a
-              href="src\assets\CV_Pooda_Derick.pdf"
+              href="\CV_Pooda_Derick.pdf"
               className="px-8 py-4 border border-brand-accent text-brand-accent rounded-full font-medium hover:bg-brand-accent hover:text-white transition-all flex items-center gap-2 w-full sm:w-auto justify-center"
             >
               <Download className="w-5 h-5" />
